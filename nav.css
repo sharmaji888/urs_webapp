@@ -1,0 +1,32 @@
+
+
+.div{
+    text-align: left;
+}
+
+li {
+    align-items: center;
+    background-color: #146618;
+    border-radius: 62px;
+    box-sizing: border-box;
+    display: flex;
+    max-height: none;
+    min-height: 103px;
+    padding-left: 217px;
+    padding-right: 90px;
+    position: relative;
+    margin: 3px;
+    width: 48px;
+    text-align: center;
+    align-items: center;
+    padding: 0px 177px;
+}
+
+.nav-link {
+    display: block;
+    padding: 2.5rem 4rem;
+    color: #fffefe;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    
+}
