@@ -1,0 +1,43 @@
+.App {
+  background-color: #58bb7e;
+  text-align: left;
+
+  padding: 1%;
+  width: 94%;
+  height: 92%;
+  border: solid 1px #385a27;
+  background-color: #c5c547;
+  box-shadow: 0 0 10px rgb(0 0 0 / 60%);
+  border-radius: 49px;
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px 5px rgb(0 0 0 / 60%);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  margin: 57px;
+
+  min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+/* .App-logo {
+height: 40vmin;
+pointer-events: none;
+} */
+/* 
+.App-header {
+background-color: #58bb7e;
+min-height: 100vh;
+display: flex;
+align-items: left;
+justify-content: center;
+flex-direction: column;
+font-size: calc(10px + 2vmin);
+color: white;
+} */
+
+
+
+/* 
+.col1{
+text-align: left;
+} */
