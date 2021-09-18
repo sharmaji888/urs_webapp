@@ -7,9 +7,9 @@ import Gallery from './Gallery';
 import About from './About';
 
 function Body(){
-    return(<div>
+    return(<div id='body'>
         <BrowserRouter>
-        <Route exact path ="/Home" component={Home} />
+        <Route exact path ="/" component={Home} />
         <Route exact path ="/Vision" component={Vision} />
         <Route exact path ="/Services" component={Services} />
         <Route exact path ="/Gallery" component={Gallery} />
