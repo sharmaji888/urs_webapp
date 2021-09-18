@@ -23,7 +23,7 @@ function App() {
       <div className='row'>
     
       <div className='col-lg-3 allign-items-left '><Nav /></div>
-      <div className='col'><Body /></div>
+      <div className='col' id="bg-img"><Body /></div>
       </div>
       <Footer />
      

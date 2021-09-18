@@ -1,6 +1,7 @@
+import './Vision.css'
 function Vision(){
     return(<div>
-        <h1>Vision1</h1>
+        <h1>OUR VISION</h1>
     </div>)
 
 }
