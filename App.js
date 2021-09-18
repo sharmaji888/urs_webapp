@@ -11,9 +11,14 @@ function App() {
     <div className="App">
      
       <header className="App-header">
-        <div>
-        <img src={logo} />
+        <section >
+          <div className="col" id='logo' >
+        <img  src={logo} />
         </div>
+        <div className='col'>
+          <span className='hole'/>
+        </div>
+        </section>
       
       <div className='row'>
     

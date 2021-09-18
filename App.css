@@ -4,9 +4,25 @@
   border-radius: 64px;
   text-align: left;
   padding:2%;
-  margin: 50px; 
+  margin: 2%; 
 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+#logo{
+  text-align: center;
+}
+
+.hole {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  right: 4%;
+  top: 6%;
+  background: #99F597;
+  border-radius: 40px;
+  box-shadow: inset 10px 20px 4px rgb(0 0 0 / 25%);
+  display: flex;
 }
