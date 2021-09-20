@@ -1,35 +1,91 @@
+
+/* FOR MAIN BODY INCLUDING AND NAV MENU  */
 .App {
   background: rgba(245, 245, 245, 0.75);  
   box-shadow: 10px 20px 4px rgba(34, 82, 50, 0.25);
   border-radius: 64px;
-  text-align: left;
+  /* text-align: left; */
   padding:2%;
+  /* padding-top: 02%; */
   margin: 2%; 
-
-  min-height: 100vh;
+  margin-top: 7%;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
 }
 
+
+/* For main logo of Page */
 #logo{
   text-align: center;
+  margin: 5%;
 }
 
+/* FOR MAIN URS LOGO BACKGROUND EFFECTS */
+img.logo_bg{
+  position:absolute;
+  width: 12%;
+  /* height: 20%; */
+  top:2%;
+  left: 44%;
+  
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 10px 10px 4px rgba(13, 71, 30, 0.25);
+  border-radius: 20px;
+}
+
+/* GREEN PUNCH HOLE IN BODY BACKGROUND */
+/* #hole{
+  text-align: right;
+}
 .hole {
-  position: absolute;
-  width: 35px;
-  height: 35px;
-  right: 4%;
-  top: 6%;
+  text-align: right;
+  width: 40px;
+  height: 40px;
+  left: 94%;
+  top: 0%;
   background: #99F597;
-  border-radius: 40px;
+  border-radius: 65px;
   box-shadow: inset 10px 20px 4px rgb(0 0 0 / 25%);
   display: flex;
+} */
+
+.hole{
+  margin-left: 97%;
+  width: 35px;
+  height: 35px;
+  background: #99F597;
+  box-shadow: inset 10px 20px 4px rgb(0 0 0 / 25%);
+  border-radius: 60px;
+  display: flex;
+
+  
+  
 }
 
+/* FOR BACKGROUND IMAGE OF BODY */
 #bg-img{
+  padding-top: 4%;
   background: url(./logo2.svg) no-repeat center 50%;
   background-size: 50%;
   margin: 0%;
   
 }
+
+@media screen and (max-width: 990px) {
+
+  .App{
+    padding: 5%;
+    padding-top: 4%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .App{
+    padding: 12%;
+    padding-top: 8%;
+  }
+}
+
+

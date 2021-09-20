@@ -1,13 +1,11 @@
+/* CSS FILE FOR BODY.JS */
+
 #body{
+    padding: 2%;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    /* background-image: url("./logo2.svg");
-    opacity: 0.2;
-    background-repeat: no-repeat;
-    background-size: 500px ;
-    align-content: center;*/
-    text-align: center;/*
-    align-items: center; */
+   
+    text-align: center;
     min-height: 100%;
 
     background: rgba(196, 196, 196, 0.9);
